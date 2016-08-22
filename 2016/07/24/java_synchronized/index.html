@@ -3,14 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>心态 - 行为 - 习惯 - 性格 - 命运</title>
+  <title>java的锁机制 | 心态 - 行为 - 习惯 - 性格 - 命运</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="心态 - 行为 - 习惯 - 性格 - 命运">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="一、 概念一段synchronized的代码被一个线程执行之前，他要先拿到执行这段代码的权限，在Java里边就是拿到某个同步对象的锁（一个对象只有一把锁）； 如果这个时候同步对象的锁被其他线程拿走了，他（这个线程）就只能等了（线程阻塞在锁池等待队列中）。 取到锁后，他就开始执行同步代码(被synchronized修饰的代码）；线程执行完同步代码后马上就把锁还给同步对象，其他在锁池中等待的某个线程">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java的锁机制">
+<meta property="og:url" content="http://yoursite.com/2016/07/24/java_synchronized/index.html">
 <meta property="og:site_name" content="心态 - 行为 - 习惯 - 性格 - 命运">
+<meta property="og:description" content="一、 概念一段synchronized的代码被一个线程执行之前，他要先拿到执行这段代码的权限，在Java里边就是拿到某个同步对象的锁（一个对象只有一把锁）； 如果这个时候同步对象的锁被其他线程拿走了，他（这个线程）就只能等了（线程阻塞在锁池等待队列中）。 取到锁后，他就开始执行同步代码(被synchronized修饰的代码）；线程执行完同步代码后马上就把锁还给同步对象，其他在锁池中等待的某个线程">
+<meta property="og:updated_time" content="2016-08-22T03:05:23.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="心态 - 行为 - 习惯 - 性格 - 命运">
+<meta name="twitter:title" content="java的锁机制">
+<meta name="twitter:description" content="一、 概念一段synchronized的代码被一个线程执行之前，他要先拿到执行这段代码的权限，在Java里边就是拿到某个同步对象的锁（一个对象只有一把锁）； 如果这个时候同步对象的锁被其他线程拿走了，他（这个线程）就只能等了（线程阻塞在锁池等待队列中）。 取到锁后，他就开始执行同步代码(被synchronized修饰的代码）；线程执行完同步代码后马上就把锁还给同步对象，其他在锁池中等待的某个线程">
   
     <link rel="alternate" href="/atom.xml" title="心态 - 行为 - 习惯 - 性格 - 命运" type="application/atom+xml">
   
@@ -59,9 +63,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-java_synchronized" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-java_synchronized" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/07/24/java_synchronized/" class="article-date">
   <time datetime="2016-07-24T08:11:41.000Z" itemprop="datePublished">2016-07-24</time>
@@ -74,8 +76,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/24/java_synchronized/">java的锁机制</a>
+    <h1 class="article-title" itemprop="name">
+      java的锁机制
     </h1>
   
 
@@ -99,54 +101,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-create_blog" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/07/23/create_blog/" class="article-date">
-  <time datetime="2016-07-23T08:11:41.000Z" itemprop="datePublished">2016-07-23</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/23/create_blog/">怎样写好一篇博客</a>
-    </h1>
+    <a href="/2016/07/23/create_blog/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">怎样写好一篇博客</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <ul>
-<li>1 前提</li>
-<li>2 假设</li>
-<li>3 逻辑</li>
-<li>4 结论</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/23/create_blog/" data-id="cis5goygu000038q7qgd06pyx" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog/">blog</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
 
 </section>
         
