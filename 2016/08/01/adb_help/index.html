@@ -3,14 +3,54 @@
 <head>
   <meta charset="utf-8">
   
-  <title>心态 - 行为 - 习惯 - 性格 - 命运</title>
+  <title>adb 命令行的使用 | 心态 - 行为 - 习惯 - 性格 - 命运</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="心态 - 行为 - 习惯 - 性格 - 命运">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="查看adb版本信息：adb version
+
+关闭adb服务：adb kill-server
+
+开启adb服务adb start-server
+
+查看连接的设备adb devices 
+
+安装test.apk(路径为盘根目录)adb install E:\test.apk
+
+卸载test.apk(包名：com.test)adb uninstall com.test
+
+test.apk设备中已经存">
+<meta property="og:type" content="article">
+<meta property="og:title" content="adb 命令行的使用">
+<meta property="og:url" content="http://yoursite.com/2016/08/01/adb_help/index.html">
 <meta property="og:site_name" content="心态 - 行为 - 习惯 - 性格 - 命运">
+<meta property="og:description" content="查看adb版本信息：adb version
+
+关闭adb服务：adb kill-server
+
+开启adb服务adb start-server
+
+查看连接的设备adb devices 
+
+安装test.apk(路径为盘根目录)adb install E:\test.apk
+
+卸载test.apk(包名：com.test)adb uninstall com.test
+
+test.apk设备中已经存">
+<meta property="og:updated_time" content="2016-08-24T09:25:32.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="心态 - 行为 - 习惯 - 性格 - 命运">
+<meta name="twitter:title" content="adb 命令行的使用">
+<meta name="twitter:description" content="查看adb版本信息：adb version
+
+关闭adb服务：adb kill-server
+
+开启adb服务adb start-server
+
+查看连接的设备adb devices 
+
+安装test.apk(路径为盘根目录)adb install E:\test.apk
+
+卸载test.apk(包名：com.test)adb uninstall com.test
+
+test.apk设备中已经存">
   
     <link rel="alternate" href="/atom.xml" title="心态 - 行为 - 习惯 - 性格 - 命运" type="application/atom+xml">
   
@@ -59,9 +99,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-adb_help" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-adb_help" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/08/01/adb_help/" class="article-date">
   <time datetime="2016-08-01T09:19:44.000Z" itemprop="datePublished">2016-08-01</time>
@@ -74,8 +112,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/08/01/adb_help/">adb 命令行的使用</a>
+    <h1 class="article-title" itemprop="name">
+      adb 命令行的使用
     </h1>
   
 
@@ -141,96 +179,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-java_synchronized" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/07/24/java_synchronized/" class="article-date">
-  <time datetime="2016-07-24T08:11:41.000Z" itemprop="datePublished">2016-07-24</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/24/java_synchronized/">java的锁机制</a>
-    </h1>
+    <a href="/2016/07/24/java_synchronized/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">java的锁机制</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <ul>
-<li>一、 概念<br>一段synchronized的代码被一个线程执行之前，他要先拿到执行这段代码的权限，在Java里边就是拿到某个同步对象的锁（一个对象只有一把锁）； 如果这个时候同步对象的锁被其他线程拿走了，他（这个线程）就只能等了（线程阻塞在锁池等待队列中）。 取到锁后，他就开始执行同步代码(被synchronized修饰的代码）；线程执行完同步代码后马上就把锁还给同步对象，其他在锁池中等待的某个线程就可以拿到锁执行同步代码了。这样就保证了同步代码在统一时刻只有一个线程在执行。</li>
-<li>二、 解决方法<br>1.在需要同步的方法的方法签名中加入synchronized关键字。<br>2.使用synchronized块对需要进行同步的代码段进行同步。<br>3.使用JDK 5中提供的java.util.concurrent.lock包中的Lock对象。</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/24/java_synchronized/" data-id="cis8p4bkr000165q7rnyvom14" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-create_blog" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/07/23/create_blog/" class="article-date">
-  <time datetime="2016-07-23T08:11:41.000Z" itemprop="datePublished">2016-07-23</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/23/create_blog/">怎样写好一篇博客</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <ul>
-<li>1 前提</li>
-<li>2 假设</li>
-<li>3 逻辑</li>
-<li>4 结论</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/23/create_blog/" data-id="cis8p4bkw000365q7sxq3rv4i" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog/">blog</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
